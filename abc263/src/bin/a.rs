@@ -8,7 +8,7 @@ fn main() {
         e: usize,
     }
 
-    let mut arr = [0; 16];
+    let mut arr = [0; 13];
 
     for i in [a, b, c, d, e] {
         arr[i - 1] += 1;
