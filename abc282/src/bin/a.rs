@@ -6,6 +6,6 @@ fn main() {
     }
 
     for i in 0..n {
-        println!("{}", (b'A' + i) as char);
+        print!("{}", (b'A' + i) as char);
     }
 }
