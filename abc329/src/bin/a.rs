@@ -1,3 +1,12 @@
+use itertools::Itertools;
+use proconio::{input, marker::Chars};
+
 fn main() {
-    todo!();
+    input! {
+        s: Chars,
+    }
+
+    let ans = s.iter().join(" ");
+
+    println!("{}", ans);
 }
