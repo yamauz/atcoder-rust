@@ -1,3 +1,11 @@
+use proconio::input;
+
 fn main() {
-    todo!();
+    input! {
+        n: usize,
+    }
+
+    for _ in 1..=n {
+        print!("{}", n);
+    }
 }
